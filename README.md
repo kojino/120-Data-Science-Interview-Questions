@@ -1,5 +1,13 @@
-# 120-Data-Science-Interview-Questions
+# 120 Data Science Interview Questions
 
-[120 Data Science Interview Questions](http://www.datasciencequestions.com/) is the best list of data science interview questions I have found on the web.
+Here are the answers to [120 Data Science Interview Questions](http://www.datasciencequestions.com/).
 
-Here are the answers to the 120 questions. Feel free to send me a pull request if you found mistakes or have better answers.
+- [Communication](communication.md)
+- [Data Analysis](data-analysis.md)
+- [Predictive Modeling](predictive-modeling.md)
+- [Probability](probability.md)
+- [Product Metrics](product-metrics.md)
+- [Programming](programming.md)
+- [Statistical Inference](statistical-inference.md)
+
+Feel free to send me a pull request if you find any mistakes or have better answers.
