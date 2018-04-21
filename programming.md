@@ -9,7 +9,7 @@
 #### 4. Program an algorithm to find the best approximate solution to the travelling salesman problem2 in a given time.
   - Greedy
 #### 5. You have a stream of data coming in of size n, but you don’t know what n is ahead of time. Write an algorithm that will take a random sample of k elements. Can you write one that takes O(k) space?
-  -
+  - https://en.wikipedia.org/wiki/Reservoir_sampling
 
 #### 6. Write an algorithm that can calculate the square root of a number.
   - <https://www.quora.com/What-is-the-method-to-calculate-a-square-root-by-hand?redirected_qid=664405>
