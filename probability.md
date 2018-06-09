@@ -40,5 +40,7 @@
   - 4/13
 #### 19. You have a 0.1% chance of picking up a coin with both heads, and a 99.9% chance that you pick up a fair coin. You flip your coin and it comes up heads 10 times. What’s the chance that you picked up the fair coin, given the information that you observed?
 
+With Bayes Rule : (0.5**10)*(0.99) / ((0.5**10)*(0.99) + (1)*(0.1)) ~= 0.0096
+
 #### 20. What is a P-Value ?
   - https://en.wikipedia.org/wiki/P-value
