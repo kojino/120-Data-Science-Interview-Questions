@@ -58,7 +58,7 @@ The exploratory phase will generate lots of possible hypotheses, and the exploit
 #### 13. Your linear regression didn’t run and communicates that there are an infinite number of best estimates for the regression coefficients. What could be wrong?
   - p > n.
   - If some of the explanatory variables are perfectly correlated (positively or negatively) then the coefficients would not be unique. 
-#### 14. You run your regression on different subsets of your data, and  nd that in each subset, the beta value for a certain variable varies wildly. What could be the issue here?
+#### 14. You run your regression on different subsets of your data, and find that in each subset, the beta value for a certain variable varies wildly. What could be the issue here?
   - The dataset might be heterogeneous. In which case, it is recommended to cluster datasets into different subsets wisely, and then draw different models for different subsets. Or, use models like non parametric models (trees) which can deal with heterogeneity quite nicely.
   15. What is the main idea behind ensemble learning? If I had many different models that predicted the same response variable, what might I want to do to incorporate all of the models? Would you expect this to perform better than an individual model or worse?
   - The assumption is that a group of weak learners can be combined to form a strong learner.
