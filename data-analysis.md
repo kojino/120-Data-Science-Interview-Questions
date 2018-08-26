@@ -86,12 +86,12 @@ One very important point is to make sure that the output of your models are out-
   - The Rasch model for dichotomous data takes the form:  
 {\displaystyle \Pr\\{X_{ni}=1\\}={\frac {\exp({\beta _{n}}-{\delta _{i}})}{1+\exp({\beta _{n}}-{\delta _{i}})}},}  
 where  is the ability of person  and  is the difficulty of item}.
-#### 23. You have 5000 people that rank 10 sushis in terms of salt\- iness. How would you aggregate this data to estimate the true saltiness rank in each sushi?
+#### 23. You have 5000 people that rank 10 sushis in terms of saltiness. How would you aggregate this data to estimate the true saltiness rank in each sushi?
   - Some people would take the mean rank of each sushi.  If I wanted something simple, I would use the median, since ranks are (strictly speaking) ordinal and not interval, so adding them is a bit risque (but people do it all the time and you probably won't be far wrong).
 #### 24. Given data on congressional bills and which congressional representatives co-sponsored the bills, how would you determine which other representatives are most similar to yours in voting behavior? How would you evaluate who is the most liberal? Most republican? Most bipartisan?
   - collaborative filtering. you have your votes and we can calculate the similarity for each representatives and select the most similar representative
   - for liberal and republican parties, find the mean vector and find the representative closest to the center point
-#### 25. How would you come up with an algorithm to detect pla- giarism in online content?
+#### 25. How would you come up with an algorithm to detect plagiarism in online content?
   - reduce the text to a more compact form (e.g. fingerprinting, bag of words) then compare those with other texts by calculating the similarity
 #### 26. You have data on all purchases of customers at a grocery store. Describe to me how you would program an algo- rithm that would cluster the customers into groups. How would you determine the appropriate number of clusters to include?
   - KNN
