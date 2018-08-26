@@ -98,4 +98,4 @@ where  is the ability of person  and  is the difficulty of item}.
   - choose a small value of k that still has a low SSE (elbow method)
   - <https://bl.ocks.org/rpgove/0060ff3b656618e9136b>
 #### 27. Let's say you're building the recommended music engine at Spotify to recommend people music based on past listening history. How would you approach this problem?
-  - collaborative filtering
+  - [collaborative filtering](https://en.wikipedia.org/wiki/Collaborative_filtering)
