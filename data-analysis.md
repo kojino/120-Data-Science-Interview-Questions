@@ -60,7 +60,7 @@ The exploratory phase will generate lots of possible hypotheses, and the exploit
   - If some of the explanatory variables are perfectly correlated (positively or negatively) then the coefficients would not be unique. 
 #### 14. You run your regression on different subsets of your data, and find that in each subset, the beta value for a certain variable varies wildly. What could be the issue here?
   - The dataset might be heterogeneous. In which case, it is recommended to cluster datasets into different subsets wisely, and then draw different models for different subsets. Or, use models like non parametric models (trees) which can deal with heterogeneity quite nicely.
-  15. What is the main idea behind ensemble learning? If I had many different models that predicted the same response variable, what might I want to do to incorporate all of the models? Would you expect this to perform better than an individual model or worse?
+#### 15. What is the main idea behind ensemble learning? If I had many different models that predicted the same response variable, what might I want to do to incorporate all of the models? Would you expect this to perform better than an individual model or worse?
   - The assumption is that a group of weak learners can be combined to form a strong learner.
   - Hence the combined model is expected to perform better than an individual model.
   - Assumptions:
