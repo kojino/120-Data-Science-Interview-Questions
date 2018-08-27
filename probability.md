@@ -6,7 +6,7 @@
 #### 2. In any 15-minute interval, there is a 20% probability that you will see at least one shooting star. What is the proba- bility that you see at least one shooting star in the period of an hour?
   - 1-(0.8)^4. Or, we can use Poisson processes
 #### 3. How can you generate a random number between 1 - 7 with only a die?
-Launch it 3 times, each is a launch sets a bit: 1-3 -> 0, 4-6 -> 1. One gets a result between 0 (000) and 7 (111), evenly spread. Repeat the entire process if 0 was obtained (all other values are still evenly spread).
+Launch it 3 times, each launch sets a bit: 1-3 -> 0, 4-6 -> 1. One gets a result between 0 (000) and 7 (111), evenly spread. Repeat the entire process if 0 was obtained (all other values are still evenly spread).
 #### 4. How can you get a fair coin toss if someone hands you a coin that is weighted to come up heads more often than tails?
   - Flip twice and if HT then H, TH then T.
 #### 5. You have an 50-50 mixture of two normal distributions with the same standard deviation. How far apart do the means need to be in order for this distribution to be bimodal?
