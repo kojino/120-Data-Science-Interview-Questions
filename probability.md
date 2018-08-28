@@ -43,9 +43,10 @@ The result is between 0 (000) and 7 (111), evenly spread (3 independent throw). 
   - 4/13
 #### 19. You have a 0.1% chance of picking up a coin with both heads, and a 99.9% chance that you pick up a fair coin. You flip your coin and it comes up heads 10 times. What’s the chance that you picked up the fair coin, given the information that you observed?
   * Events: F = "picked a fair coin", T = "10 heads in a row"
-  * P(F|T) = P(T|F)P(F)/P(T) (Bayes formula) = (1/2)^10 * 0.999/P(T)
-  * P(T) = P(T|F)P(F) + P(T|¬F)P(¬F) (total probabilities formula) = (1/2)^10 * 0.999 + 1 * 0.001
-  * So P(F|T) = (1/2)^10 * 0.999/((1/2)^10 * 0.99 + 0.01) = 1/(1 + 0.001 * 2^10 /0.999).
+  * (1) P(F|T) = P(T|F)P(F)/P(T) (Bayes formula)
+  * (2) P(T) = P(T|F)P(F) + P(T|¬F)P(¬F) (total probabilities formula)
+  * Injecting (2) in (1): P(F|T) = P(T|F)P(F)/(P(T|F)P(F) + P(T|¬F)P(¬F)) = 1 / (1 + P(T|¬F)P(¬F)/(P(T|F)P(F)))
+  * Numerically: 1/(1 + 0.001 * 2^10 /0.999).
   * With 2^10 ≈ 1000 and 0.999 ≈ 1 this simplifies to 1/2
 #### 20. What is a P-Value ?
   * The probability to obtain a similar or more extreme result than observed when the null hypothesis is assumed.
