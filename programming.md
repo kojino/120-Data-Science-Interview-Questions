@@ -13,6 +13,7 @@
 
 #### 6. Write an algorithm that can calculate the square root of a number.
   - <https://www.quora.com/What-is-the-method-to-calculate-a-square-root-by-hand?redirected_qid=664405>
+  - https://en.wikipedia.org/wiki/Newton's_method#Square_root_of_a_number
 #### 7. Given a list of numbers, can you return the outliers?
   - sort then select the highest and the lowest 2.5%
 #### 8. When can parallelism make your algorithms run faster?  
