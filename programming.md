@@ -41,7 +41,7 @@ When could it make your algorithms run slower?
 #### 12. Given a COURSES table with columns course_id and course_name, a FACULTY table with columns faculty_id and faculty_name, and a COURSE_FACULTY table with columns faculty_id and course_id, how would you return a list of faculty who teach a course given the name of a course?
   - select faculty_name from faculty_id c join (select faculty_id from (select course_id from COURSES where course_name=xxx) as a join COURSE_FACULTY b on a.course_id = b.course_id) d on c.faculty_id = d.faculty_id
 #### 13. Given a IMPRESSIONS table with ad_id, click (an indicator that the ad was clicked), and date, write a SQL query that will tell me the click-through-rate of each ad by month.
-  - select ad_id, average(click) from IMPRESSIONS group by ad_id, month(date)
+  - select id, average(click) from (select count(click) as click from IMPRESSIONS group by id,month(date)) group by id
 #### 14. Write a query that returns the name of each department and a count of the number of employees in each:  
 EMPLOYEES containing: Emp_ID (Primary key) and Emp_Name  
 EMPLOYEE_DEPT containing: Emp_ID (Foreign key) and Dept_ID (Foreign key)  
