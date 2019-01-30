@@ -22,7 +22,7 @@
   - <https://www.quora.com/How-would-you-run-an-A-B-test-if-the-observations-are-extremely-right-skewed>
 #### 8. I have two different experiments that both change the sign-up button to my website. I want to test them at the same time. What kinds of things should I keep in mind?
   - exclusive -> ok
-#### 9. What is a p-value? What is the di erence between type-1 and type-2 error?
+#### 9. What is a p-value? What is the difference between type-1 and type-2 error?
   -   
 
   - type-1 error: rejecting Ho when Ho is true
@@ -36,7 +36,7 @@
   - A method for parameter optimization (fitting a model). We choose parameters so as to maximize the likelihood function (how likely the outcome would happen given the current data and our model).
   - maximum likelihood estimation (MLE) is a method of [estimating](https://en.wikipedia.org/wiki/Estimator "Estimator") the [parameters](https://en.wikipedia.org/wiki/Statistical_parameter "Statistical parameter") of a [statistical model](https://en.wikipedia.org/wiki/Statistical_model "Statistical model") given observations, by finding the parameter values that maximize the [likelihood](https://en.wikipedia.org/wiki/Likelihood "Likelihood") of making the observations given the parameters. MLE can be seen as a special case of the [maximum a posteriori estimation](https://en.wikipedia.org/wiki/Maximum_a_posteriori_estimation "Maximum a posteriori estimation") (MAP) that assumes a [uniform](https://en.wikipedia.org/wiki/Uniform_distribution_\(continuous\) "Uniform distribution \(continuous\)") [prior distribution](https://en.wikipedia.org/wiki/Prior_probability "Prior probability") of the parameters, or as a variant of the MAP that ignores the prior and which therefore is [unregularized](https://en.wikipedia.org/wiki/Regularization_\(mathematics\) "Regularization \(mathematics\)").
   - for gaussian mixtures, non parametric models, it doesn’t exist
-#### 13. What’s the di erence between a MAP, MOM, MLE estima\- tor? In which cases would you want to use each?
+#### 13. What’s the difference between a MAP, MOM, MLE estima\- tor? In which cases would you want to use each?
   - MAP estimates the posterior distribution given the prior distribution and data which maximizes the likelihood function. MLE is a special case of MAP where the prior is uninformative uniform distribution.
   - MOM sets moment values and solves for the parameters. MOM is not used much anymore because maximum likelihood estimators have higher probability of being close to the quantities to be estimated and are more often unbiased.
 #### 14. What is a confidence interval and how do you interpret it?
