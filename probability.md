@@ -26,8 +26,17 @@ The result is between 0 (000) and 7 (111), evenly spread (3 independent throw). 
   - the expected number of hash collisions: 1-10*(9/10)^10
   - the expected number of hashes that are unused: 10*(9/10)^10
 #### 11. You call 2 UberX’s and 3 Lyfts. If the time that each takes to reach you is IID, what is the probability that all the Lyfts arrive first? What is the probability that all the UberX’s arrive first?
-  - Lyfts arrive first: 2!*3!/5!
-  - Ubers arrive first: same
+  - All Lyft's first
+  
+    * probability that the first car is Lyft = 3/5
+    * probability that the second car is Lyft = 2/4
+    * probability that the third car is Lyft = 1/3
+    Therefore, probability that all the Lyfts arrive first = (3/5) * (2/4) * (1/3) = 1/10
+  - All Uber's first
+  
+    * probability that the first car is Uber = 2/5
+    * probability that the second car is Uber = 1/4
+    Therefore, probability that all the Ubers arrive first = (2/5) * (1/4) = 1/10
 #### 12. I write a program should print out all the numbers from 1 to 300, but prints out Fizz instead if the number is divisible by 3, Buzz instead if the number is divisible by 5, and FizzBuzz if the number is divisible by 3 and 5. What is the total number of numbers that is either Fizzed, Buzzed, or FizzBuzzed?
   - 100+60-20=140
 #### 13. On a dating site, users can select 5 out of 24 adjectives to describe themselves. A match is declared between two users if they match on at least 4 adjectives. If Alice and Bob randomly pick adjectives, what is the probability that they form a match?
