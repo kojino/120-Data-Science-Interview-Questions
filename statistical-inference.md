@@ -23,7 +23,7 @@
 #### 8. I have two different experiments that both change the sign-up button to my website. I want to test them at the same time. What kinds of things should I keep in mind?
   - exclusive -> ok
 #### 9. What is a p-value? What is the difference between type-1 and type-2 error?
-  -   
+  -   The probability that null hypothesis is true.
 
   - type-1 error: rejecting Ho when Ho is true
   - type-2 error: not rejecting Ho when Ha is true
