@@ -1,4 +1,4 @@
-## Statistical Inference (15 questions)
+## Statistical Inference (16 questions)
 
 #### 1. In an A/B test, how can you check if assignment to the various buckets was truly random?
   - Plot the distributions of multiple features for both A and B and make sure that they have the same shape. More rigorously, we can conduct a permutation test to see if the distributions are the same.
