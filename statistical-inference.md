@@ -23,8 +23,7 @@
 #### 8. I have two different experiments that both change the sign-up button to my website. I want to test them at the same time. What kinds of things should I keep in mind?
   - exclusive -> ok
 #### 9. What is a p-value? What is the difference between type-1 and type-2 error?
-  -   
-
+  - A p-value is defined such that under the null hypothesis less than the fraction p of events have parameter values more extreme than the observed parameter. It is not the probability that the null hypothesis is wrong. 
   - type-1 error: rejecting Ho when Ho is true
   - type-2 error: not rejecting Ho when Ha is true
 #### 10. You are AirBnB and you want to test the hypothesis that a greater number of photographs increases the chances that a buyer selects the listing. How would you test this hypothesis?
