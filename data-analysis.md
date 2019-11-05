@@ -94,7 +94,7 @@ where  is the ability of person  and  is the difficulty of item}.
 #### 25. How would you come up with an algorithm to detect plagiarism in online content?
   - reduce the text to a more compact form (e.g. fingerprinting, bag of words) then compare those with other texts by calculating the similarity
 #### 26. You have data on all purchases of customers at a grocery store. Describe to me how you would program an algorithm that would cluster the customers into groups. How would you determine the appropriate number of clusters to include?
-  - KNN
+  - KMeans
   - choose a small value of k that still has a low SSE (elbow method)
   - <https://bl.ocks.org/rpgove/0060ff3b656618e9136b>
 #### 27. Let's say you're building the recommended music engine at Spotify to recommend people music based on past listening history. How would you approach this problem?
