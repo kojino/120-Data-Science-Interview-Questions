@@ -46,6 +46,14 @@ The result is between 0 (000) and 7 (111), evenly spread (3 independent throw). 
 #### 15. Let’s say you have a very tall father. On average, what would you expect the height of his son to be? Taller, equal, or shorter? What if you had a very short father?
   - Shorter. Regression to the mean
 #### 16. What’s the expected number of coin flips until you get two heads in a row? What’s the expected number of coin flips until you get two tails in a row?
+  - After the first two flips, you can see this problem as a Markov chain, with states HH, HT, TH, TT. 
+  - HH is the final state. You can than define the expected number of steps N before reaching HH: E(N) = 2 + 0.25nHH, 0.25nHT, 0.25nTH, 0.25nTT. nXX represents the expected number of steps before reaching HH starting from state XX.
+  - Solve linear equation:
+  * nHH = 0
+  * nHT = 1 + 0.5nTT + 0.5nTH
+  * nTH = 1 + 0.5nHH + 0.5nHT
+  * nTT = 1 + 0.5nTH + 0.5nTT
+  - Result gives E(N) = 6.
 #### 17. Let’s say we play a game where I keep flipping a coin until I get heads. If the first time I get heads is on the nth coin, then I pay you 2n-1 dollars. How much would you pay me to play this game?
   - less than $3
 #### 18. You have two coins, one of which is fair and comes up heads with a probability 1/2, and the other which is biased and comes up heads with probability 3/4. You randomly pick coin and flip it twice, and get heads both times. What is the probability that you picked the fair coin?
