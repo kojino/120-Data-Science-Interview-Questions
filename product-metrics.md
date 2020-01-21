@@ -43,8 +43,8 @@
   *  there is a gradual step-function type scaling mechanism until that imbalance of requests-to-drivers is alleviated and then vice versa as too many drivers come online enticed by the surge pricing structure. 
   * I would bet the algorithm is custom tailored and calibrated to each location as price elasticities almost certainly vary across different cities depending on a huge multitude of variables: income, distance/sprawl, traffic patterns, car ownership, etc. With the massive troves of user data that Uber probably has collected, they most likely have tweaked the algos for each city to adjust for these varying sensitivities to surge pricing. Throw in some machine learning and incredibly rich data and you've got yourself an incredible, constantly-evolving algorithm.  
 
-#### 13. Say that you are Net ix. How would you determine what original series you should invest in and create?
+#### 13. Say that you are Netflix. How would you determine what original series you should invest in and create?
   * Netflix uses data to estimate the potential market size for an original series before giving it the go-ahead.
 #### 14. What kind of services would  nd churn (metric that tracks how many customers leave the service) helpful? How would you calculate churn?
   * subscription based services
-#### 15. Let’s say that you’re are scheduling content for a content provider on television. How would you determine the best times to schedule content?Â
+#### 15. Let’s say that you’re are scheduling content for a content provider on television. How would you determine the best times to schedule content?
