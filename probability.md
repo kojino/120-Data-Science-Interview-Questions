@@ -2,7 +2,7 @@
 
 
 #### 1. Bobo the amoeba has a 25%, 25%, and 50% chance of producing 0, 1, or 2 offspring, respectively. Each of Bobo’s descendants also have the same probabilities. What is the probability that Bobo’s lineage dies out?
-  - p=1/4+1/4*p+1/2*p^2 => p=1/2
+  - ![p=\frac{1}{4} + \frac{1}{4}p + \frac{1}{2}p^2 \;\;\; \Rightarrow  p=\frac{1}{2}](https://render.githubusercontent.com/render/math?math=p%3D%5Cfrac%7B1%7D%7B4%7D%20%2B%20%5Cfrac%7B1%7D%7B4%7Dp%20%2B%20%5Cfrac%7B1%7D%7B2%7Dp%5E2%20%5C%3B%5C%3B%5C%3B%20%5CRightarrow%20%20p%3D%5Cfrac%7B1%7D%7B2%7D)
 #### 2. In any 15-minute interval, there is a 20% probability that you will see at least one shooting star. What is the proba- bility that you see at least one shooting star in the period of an hour?
   - 1-(0.8)^4. Or, we can use Poisson processes
 #### 3. How can you generate a random number between 1 - 7 with only a die?
