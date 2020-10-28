@@ -35,7 +35,7 @@ The exploratory phase will generate lots of possible hypotheses, and the exploit
 #### 7. What is the role of trial and error in data analysis? What is the the role of making a hypothesis before diving in?
   - data analysis is a repetition of setting up a new hypothesis and trying to refute the null hypothesis.
   - The scientific method is eminently inductive: we elaborate a hypothesis, test it and refute it or not. As a result, we come up with new hypotheses which are in turn tested and so on. This is an iterative process, as science always is.
-#### 8. How can you determine which features are the most im- portant in your model?
+#### 8. How can you determine which features are the most important in your model?
   - run the features though a Gradient Boosting Machine or Random Forest to generate plots of relative importance and information gain for each feature in the ensembles.
   - Look at the variables added in forward variable selection 
 #### 9. How do you deal with some of your predictors being missing?
@@ -81,7 +81,7 @@ One very important point is to make sure that the output of your models are out-
 #### 20. How would you quantify the influence of a Twitter user?
   - like page rank with each user corresponding to the webpages and linking to the page equivalent to following.
 #### 21. Given location data of golf balls in games, how would construct a model that can advise golfers where to aim?
-#### 22. You have 100 mathletes and 100 math problems. Each mathlete gets to choose 10 problems to solve. Given data on who got what problem correct, how would you rank the problems in terms of di culty?
+#### 22. You have 100 mathletes and 100 math problems. Each mathlete gets to choose 10 problems to solve. Given data on who got what problem correct, how would you rank the problems in terms of difficulty?
   - One way you could do this is by storing a "skill level" for each user and a "difficulty level" for each problem.  We assume that the probability that a user solves a problem only depends on the skill of the user and the difficulty of the problem.*  Then we maximize the likelihood of the data to find the hidden skill and difficulty levels.
   - The Rasch model for dichotomous data takes the form:  
 {\displaystyle \Pr\\{X_{ni}=1\\}={\frac {\exp({\beta _{n}}-{\delta _{i}})}{1+\exp({\beta _{n}}-{\delta _{i}})}},}  
