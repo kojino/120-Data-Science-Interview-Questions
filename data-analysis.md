@@ -29,9 +29,9 @@
 
 In every data analysis task, there's the exploratory phase where you're just graphing things, testing things on small sets of the data, summarizing simple statistics, and getting rough ideas of what hypotheses you might want to pursue further.  
 
-Then there's the exploitatory phase, where you look deeply into a set of hypotheses.   
+Then there's the exploratory phase, where you look deeply into a set of hypotheses.   
 
-The exploratory phase will generate lots of possible hypotheses, and the exploitatory phase will let you really understand a few of them. Balance the two and you'll prevent yourself from wasting time on many things that end up meaningless, although not all.
+The exploratory phase will generate lots of possible hypotheses, and the exploratory phase will let you really understand a few of them. Balance the two and you'll prevent yourself from wasting time on many things that end up meaningless, although not all.
 #### 7. What is the role of trial and error in data analysis? What is the the role of making a hypothesis before diving in?
   - data analysis is a repetition of setting up a new hypothesis and trying to refute the null hypothesis.
   - The scientific method is eminently inductive: we elaborate a hypothesis, test it and refute it or not. As a result, we come up with new hypotheses which are in turn tested and so on. This is an iterative process, as science always is.
