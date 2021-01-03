@@ -19,7 +19,7 @@
 - Solution to covariate shift
   - importance weighted cv
 #### 3. What are some ways I can make my model more robust to outliers?
-- We can have regularization such as L1 or L2 to reduce variance (increase bias).
+- We can have regularization such as L1 to reduce variance (increase bias).
 - Changes to the algorithm:
   - Use tree-based methods instead of regression methods as they are more resistant to outliers. For statistical tests, use non parametric tests instead of parametric ones.
   - Use robust error metrics such as MAE or Huber Loss instead of MSE.
