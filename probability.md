@@ -9,6 +9,7 @@
 * Launch it 3 times: each throw sets the nth bit of the result. 
 * For each launch, if the value is 1-3, record a 0, else 1.
 The result is between 0 (000) and 7 (111), evenly spread (3 independent throw). Repeat the throws if 0 was obtained: the process stops on evenly spread values.
+A Good Answer: https://stackoverflow.com/a/842183/11480944
 #### 4. How can you get a fair coin toss if someone hands you a coin that is weighted to come up heads more often than tails?
   - Flip twice and if HT then H, TH then T.
 #### 5. You have an 50-50 mixture of two normal distributions with the same standard deviation. How far apart do the means need to be in order for this distribution to be bimodal?
