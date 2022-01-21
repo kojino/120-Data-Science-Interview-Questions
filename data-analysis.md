@@ -2,10 +2,12 @@
 
 #### 1. (Given a Dataset) Analyze this dataset and tell me what you can learn from it.
 #### 2. What is R2? What are some other metrics that could be better than R2 and why?
+  - R2 is the square of correlation between the observed target variable and the predicted target variable
   - goodness of fit measure. variance explained by the regression / total variance
-  - the more predictors you add the higher R^2 becomes.
+  - the more predictors you add the higher R^2 becomes. This will always be biased to models with more features
     - hence use adjusted R^2 which adjusts for the degrees of freedom 
     - or train error metrics
+    - Akaike information criteria (AIC) which penalizes the model for having more predictors. A larger value indicates a worse fit
 #### 3. What is the curse of dimensionality?
   - High dimensionality makes clustering hard, because having lots of dimensions means that everything is "far away" from each other.
   - For example, to cover a fraction of the volume of the data we need to capture a very wide range for each variable as the number of variables increases
