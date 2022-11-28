@@ -92,7 +92,7 @@
 #### 11. How would you construct a feed to show relevant content for a site that involves user interactions with items?
 - We can do so using building a recommendation engine. The easiest we can do is to show contents that are popular other users, which is still a valid strategy if for example the contents are news articles. To be more accurate, we can build a content based filtering or collaborative filtering. If there’s enough user usage data, we can try collaborative filtering and recommend contents other similar users have consumed. If there isn’t, we can recommend similar items based on vectorization of items (content based filtering).
 
-#### 12. How would you design the people you may know feature on LinkedIn or Facebook?
+#### 12. How would you design the 'people you may know' feature on LinkedIn or Facebook?
 - Find strong unconnected people in weighted connection graph
   - Define similarity as how strong the two people are connected
   - Given a certain feature, we can calculate the similarity based on
